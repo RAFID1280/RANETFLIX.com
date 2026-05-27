@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial;
+    background-color: #f4f4c5;
+    background: linear-gradient(135deg, #402d20 0%, #6f4d36 50%, #c7a17a 100%);
+}
+
+/* NAVBAR */
+nav {
+    background: linear-gradient(to right, #2c1b0e, #4b2c20);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+/* HERO WITH FADE-IN */
+.hero {
+    background-image: linear-gradient(to right, #33190a, #694632);
+    text-align: center;
+    padding: 40px;
+    animation: fadeOut 4s infinite;
+}
+@keyframes fadeOut {
+    0% { opacity: 0;}
+    50% { opacity: 5;}
+    100% { opacity: 0;}
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* SECTION */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    background: linear-gradient(135deg, #2c1b0e, #8d5d3e);
+    border-radius: 30px;
+    margin: 30px;
+}
+
+
+/* CARD */
+
+.card {
+    width: 220px;
+    background: #ffc400;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 1000px;
+}
+
+/* CARD IMAGE */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: fill;
+    border-radius: 100px;
+}
+
+/* TEXT */
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 13px;
+    clip-path: xywh(60px 4em 50% 10vw round 10px 30px);
+}
+
+/* CARD HOVER */
+.card:hover {
+    transform: translateY(-70px) scale(1.03);
+    box-shadow: 0 8px 20px rgb(0, 0, 0);
+}
+footer {
+    background-color: linear-gradient(to right, #2c1b0e, #4b2c20);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 12px,24px;
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.hero button{
+    background: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+}
+.hero h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    color: white;
+    
+}
+.hero img{
+    justify-content: center;
+}
+.hero p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.hero{
+    border-radius: 30px;
+    margin: 50px;
+}
+.navigation {
+    width: 420px;
+    height: 70px;
+    background: #209cff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 10px;
+}
+.navigation ul {
+    display: flex;
+    width: 350px;
+}
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+h4{
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    
+}
+.card1 {
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+    width: 900px;
+}
+.rafi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    padding-left: 40px;
+    justify-content: center;
+    background: linear-gradient(to right, #2c1b0e, #4b2c20);
+    border-radius: 35px;
+    margin: 30px ;
+}
+.rafi img{
+    width: 300px;
+    float: right;
+}
+.rafi h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}
+.rafi p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+.card1 img{
+    border-radius: 30px;
+}
+.rafi button{
+    float: left;
+    color: #ffffff;
+    background-color: red;
+}
